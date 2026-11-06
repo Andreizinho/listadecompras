@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-primary: #F4F5FB;
+  --background-secondary: #FFFFFF;
+
+  --color-brand: #CA3884;
+  --color-brand-hover: #A52C6B;
+  --color-danger: #C93847;
+
+  --content-primary: #080B12;
+  --content-secondary: #374151;
+  --content-tertiary: #9CA3AF;
+
+  --border-primary: #D1D5DB;
+  --border-hover: #B9C2D0;
+
+  --font-family: 'inter', sans-serif;
+  --font-logo : 'Sora', sans-serif;
+
+  --logo: 700 2rem/2.5 var(--font-logo);
+
+  --title: 700 1.5rem/2 var(--font-family);
+  --label: 600 1rem/1.25 var(--font-family);
+  --paragraph: 500 1rem/1.25 var(--font-family);
+  --link: 500 0.875rem/1 var(--font-family);
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

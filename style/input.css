@@ -1,0 +1,49 @@
+.voltar {
+  --cor: #c2478f;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--cor);
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.voltar::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--cor);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='19' y1='12' x2='5' y2='12'/%3E%3Cpolyline points='12 19 5 12 12 5'/%3E%3C/svg%3E") no-repeat center / contain;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='19' y1='12' x2='5' y2='12'/%3E%3Cpolyline points='12 19 5 12 12 5'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+h2 {
+  font: var(--title);
+  color: var(--content-primary);
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 2.5rem;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: var(--color-brand);
+  border-radius: 0.75rem;
+  font: var(--label);
+  color: var(--background-secondary);
+  border: none;
+}
+
+input {
+  padding: 12px 24px;
+  border-radius: 0.75rem;
+  border: none;
+}
