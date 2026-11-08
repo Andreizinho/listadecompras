@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <title>Lista de compras</title>
   <link rel="stylesheet" href="style/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
   <header>
     <div class="logotipo">
@@ -19,12 +23,53 @@
   <div class="container">
     <a href="#" class="voltar">Voltar</a>
     <h2>Compras da semana</h2>
-  </div>
+  
   <div class="inputs">
     <form class="formulario">
       <input type="text" placeholder="Adicione um novo item">
       <button>Adicionar item</button>
     </form>
   </div>
+
+  <ul class="lista">
+    <li class="item">
+      <label class="item-left">
+        <input type="checkbox" class="checkbox" />
+        <span>Pão de forma</span>
+        <button type="button" class="delet" aria-label="Excluir item">
+          <img src="./assets/trash.svg" alt="lixeira">
+        </button>
+    </li>
+
+       <li class="item">
+      <label class="item-left">
+        <input type="checkbox" class="checkbox" />
+        <span>Café preto</span>
+        <button type="button" class="delet" aria-label="Excluir item">
+          <img src="./assets/trash.svg" alt="lixeira">
+        </button>
+    </li>
+
+
+       <li class="item">
+      <label class="item-left">
+        <input type="checkbox" class="checkbox" />
+        <span>Suco de laranja</span>
+        <button type="button" class="delet" aria-label="Excluir item">
+          <img src="./assets/trash.svg" alt="lixeira">
+        </button>
+    </li>
+
+       <li class="item">
+      <label class="item-left">
+        <input type="checkbox" class="checkbox" />
+        <span>Bolacha</span>
+        <button type="button" class="delet" aria-label="Excluir item">
+          <img src="./assets/trash.svg" alt="lixeira">
+        </button>
+    </li>
+  </ul>
+  </div>
 </body>
+
 </html>

@@ -31,6 +31,21 @@ h2 {
   margin: 0 auto;
   padding: 0 20px;
   margin-top: 2.5rem;
+  align-items: stretch; 
+}
+
+form{
+  display: flex; 
+  gap: 1rem;
+  margin-top: 2.75rem;
+}
+
+input[type="text"] {
+  flex: 1;  
+  min-width: 0;     
+  padding: 12px 24px;
+  border-radius: 0.75rem;
+  border: solid 2px var(--border-primary);
 }
 
 button {
@@ -45,5 +60,69 @@ button {
 input {
   padding: 12px 24px;
   border-radius: 0.75rem;
+  border: solid 2px var(--border-primary);
+  width: 28rem;
+}
+
+placeholder{
+  font: var(--label);
+  color: var(-content-tertiary);
+}
+
+.checkbox {
+  width: 1rem;
+  height: 1rem;
+  display: grid;
+  place-content: center;
+  flex-shrink: 0;
+  border-radius: 0.375rem;
+   accent-color: var(--color-brand);
+  }
+
+.delet{
+    background-color: white;
+}
+
+
+.lista {
+  max-width: 39rem;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 2.5rem;
+
+}
+
+.item{
+  font: var(--paragraph);
+  color: var(--content-secondary);
+  padding: 0.5rem 0.75rem; 
+  background-color: var(--background-secondary);  
+  border-radius: 0.75rem;                 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-left{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.delet{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  padding: 0.5rem;
+  background: none;
   border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.15s;
 }

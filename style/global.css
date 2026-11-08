@@ -36,3 +36,8 @@ a {
   color: inherit;
   cursor: pointer;
 }
+
+body{
+  background-color: var(--background-primary);
+}
+
