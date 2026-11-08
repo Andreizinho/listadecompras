@@ -126,3 +126,31 @@ placeholder{
   opacity: 0.7;
   transition: all 0.15s;
 }
+
+
+.alert{
+  p {
+    font: var(--label);
+    color: var(--background-secondary);
+     margin: 0;
+  }
+  background-color: var(--color-danger);
+
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; 
+
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  
+}
+
+  .close {
+    margin-left: auto;
+    background: transparent;
+    border: none;
+    padding: 0;
+    color: inherit;
+    cursor: pointer;
+  }
