@@ -26,12 +26,12 @@
   
   <div class="inputs">
     <form class="formulario">
-      <input type="text" placeholder="Adicione um novo item">
-      <button>Adicionar item</button>
+      <input type="text" id="AddItem" placeholder="Adicione um novo item">
+      <button id="Addbtn">Adicionar item</button>
     </form>
   </div>
 
-  <ul class="lista">
+  <ul id="Minhalista" class="lista">
     <li class="item">
       <label class="item-left">
         <input type="checkbox" class="checkbox" />
@@ -39,6 +39,7 @@
         <button type="button" class="delet" aria-label="Excluir item">
           <img src="./assets/trash.svg" alt="lixeira">
         </button>
+      </label>
     </li>
 
        <li class="item">
@@ -48,6 +49,7 @@
         <button type="button" class="delet" aria-label="Excluir item">
           <img src="./assets/trash.svg" alt="lixeira">
         </button>
+      </label>
     </li>
 
 
@@ -58,6 +60,7 @@
         <button type="button" class="delet" aria-label="Excluir item">
           <img src="./assets/trash.svg" alt="lixeira">
         </button>
+      </label>
     </li>
 
        <li class="item">
@@ -67,20 +70,24 @@
         <button type="button" class="delet" aria-label="Excluir item">
           <img src="./assets/trash.svg" alt="lixeira">
         </button>
+        </label>
     </li>
   </ul>
   
-  <div class="alert">
+  <div class="alert" id="alerta">
     <img src="./assets/alert.svg" alt="icon alert">
     <p>
       O item foi removido da lista
     </p>
-    <button class="close">
+    <button class="close" id="fechar-alerta">
     <img src="./assets/cancel.svg" alt="icon cancel">
     </button>
   </div>
   </div>
 
+  <script src="./script.js">
+
+  </script>
 </body>
 
 </html>

@@ -137,7 +137,7 @@ placeholder{
   background-color: var(--color-danger);
 
   margin-top: 2rem;
-  display: flex;
+  display: none;
   align-items: center;
   gap: 0.75rem; 
 
@@ -154,3 +154,12 @@ placeholder{
     color: inherit;
     cursor: pointer;
   }
+
+  .alert {
+  display: none;      
+
+}
+
+.alert.mostrar {
+  display: flex;   
+}
